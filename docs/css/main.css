@@ -86,7 +86,8 @@ html {
 body {
   font-size: 1.6rem;
   /* 10px * 1.6 = 16px */
-  font-family: 'Noto Sans';
+  background-color: #223f22;
+  position: relative;
 }
 p {
   font-size: 14px;
@@ -99,18 +100,30 @@ p {
     line-height: 28px;
   }
 }
-.main-bg {
-  min-width: 100%;
-  min-height: 100vh;
-  background-image: url(../img/main-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
+.wrapper {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20%;
+  z-index: 10;
 }
-.form {
-  background-image: url(../img/form-bg.jpg);
-  background-repeat: no-repeat;
+@media only screen and (min-width: 1200px) {
+  .main-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    background-image: url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    z-index: 0;
+  }
+}
+.content {
+  width: 100%;
 }
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens - adaptive styles bofore 1200px */
@@ -118,3 +131,43 @@ p {
 /* Small Devices, Tablets - adaptive styles bofore 768px */
 /* Extra Small Devices, Phones - adaptive styles bofore 480px */
 /* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (min-width: 1200px) {
+  .header {
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    z-index: 3;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header__discount {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #ebc829;
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header__heding {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+  }
+}
+.form {
+  position: absolute;
+  background-image: url(../img/form-bg2.png);
+  background-repeat: no-repeat;
+  background-position: 0% 55%;
+}
+@media only screen and (min-width: 1200px) {
+  .form {
+    top: 27%;
+    right: 25%;
+    width: 15%;
+    height: 36%;
+  }
+}
