@@ -110,7 +110,7 @@ p {
     grid-row-gap: 3%;
   }
 }
-@media only screen and (min-width: 1200px) and (min-height: 760px) {
+@media only screen and (min-width: 1200px) and (min-height: 865px) {
   .wrapper {
     width: 75%;
     height: 100vh;
