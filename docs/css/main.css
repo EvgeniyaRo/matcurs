@@ -101,11 +101,11 @@ p {
   }
 }
 .wrapper {
-  width: 60%;
+  width: 55%;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 20%;
+  right: 25%;
   z-index: 10;
 }
 @media only screen and (min-width: 1200px) {
@@ -115,7 +115,7 @@ p {
     left: 0;
     bottom: 0;
     min-width: 100%;
-    background-image: url(../img/main-bg.jpg);
+    background-image: url(../img/bg&forma2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
@@ -159,9 +159,6 @@ p {
 }
 .form {
   position: absolute;
-  background-image: url(../img/form-bg2.png);
-  background-repeat: no-repeat;
-  background-position: 0% 55%;
 }
 @media only screen and (min-width: 1200px) {
   .form {
