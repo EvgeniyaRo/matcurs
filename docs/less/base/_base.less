@@ -40,13 +40,15 @@ p {
 		display: grid;
 		grid-template-rows: 24% 42% 34%;
 	}
-	@media only screen and (min-width : 1200px) and (aspect-ratio: 1/1) {
+	// для квадратного монитора и окна браузера без панелей вкладок
+	@media only screen and (min-width : 1200px) and (aspect-ratio: 4/3) {
 		width: 83%;
 		height: 100vh;
 		margin: 0 auto;
 		display: grid;
 		grid-template-rows: 24% 42% 34%;
 	}
+	// для квадратного монитора и окна браузера с панелями вкладок
 	@media only screen and (min-width : 1200px) and (aspect-ratio: 5/4) {
 		width: 75%;
 		height: 100vh;
@@ -54,8 +56,9 @@ p {
 		display: grid;
 		grid-template-rows: 24% 42% 34%;
 	}
+	// для прямоугольного монитора
 	@media only screen and (min-width : 1200px) and (aspect-ratio: 16/9) {
-		width: 83%;
+		width: 60%;
 		height: 100vh;
 		margin: 0 auto;
 		display: grid;
@@ -69,7 +72,6 @@ p {
 	// 	grid-template-rows: 24% 42% 34%;
 
 	// }
-// 760px
 
 }
 .main-bg{
