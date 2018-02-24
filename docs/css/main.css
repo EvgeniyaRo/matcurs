@@ -127,6 +127,15 @@ p {
     grid-template-rows: 24% 42% 34%;
   }
 }
+@media only screen and (min-width: 1200px) and (aspect-ratio: 1/1) {
+  .wrapper {
+    width: 83%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 24% 42% 34%;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .main-bg {
     position: absolute;
