@@ -109,15 +109,6 @@ p {
     grid-template-rows: 24% 42% 34%;
   }
 }
-@media only screen and (min-width: 1200px) and (aspect-ratio: 5/4) {
-  .wrapper {
-    width: 75%;
-    height: 100vh;
-    margin: 0 auto;
-    display: grid;
-    grid-template-rows: 24% 42% 34%;
-  }
-}
 @media only screen and (min-width: 1200px) and (min-height: 865px) {
   .wrapper {
     width: 75%;
@@ -128,6 +119,24 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) and (aspect-ratio: 1/1) {
+  .wrapper {
+    width: 83%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 24% 42% 34%;
+  }
+}
+@media only screen and (min-width: 1200px) and (aspect-ratio: 5/4) {
+  .wrapper {
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 24% 42% 34%;
+  }
+}
+@media only screen and (min-width: 1200px) and (aspect-ratio: 16/9) {
   .wrapper {
     width: 83%;
     height: 100vh;
