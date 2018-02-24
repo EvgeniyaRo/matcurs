@@ -109,7 +109,7 @@ p {
     grid-template-rows: 24% 42% 34%;
   }
 }
-@media only screen and (min-width: 1200px) and (min-height: 865px) {
+@media only screen and (min-width: 1200px) and (aspect-ratio: 5/4) {
   .wrapper {
     width: 75%;
     height: 100vh;
@@ -118,9 +118,9 @@ p {
     grid-template-rows: 24% 42% 34%;
   }
 }
-@media only screen and (min-width: 1200px) and (min-height: 1024px) {
+@media only screen and (min-width: 1200px) and (min-height: 865px) {
   .wrapper {
-    width: 83%;
+    width: 75%;
     height: 100vh;
     margin: 0 auto;
     display: grid;
